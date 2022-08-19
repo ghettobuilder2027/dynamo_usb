@@ -8,4 +8,4 @@
 * Perfoard
 
 ## Réalisation
-![images/dynamo_usb.jpg](images/dynamos_usb.jpg)
+![inside](/images/dynamos_usb.jpg)
