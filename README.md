@@ -1,11 +1,14 @@
 # Chargeur de batterie sur Dynamo de moyeu de vélo
 
 ## Principe 
-La dynamo est un générateur alternatif à 2 phases.
-Plus elle tourne vite, et plus la tension va être élevée.
+La dynamo est un générateur alternatif à 2 phases. Plus elle tourne vite, et plus la tension va être élevée.
+
 On utilise un pont redresseur de tension pour donc redresser la tension alternative. J'ai choisi des diodes schottky qui ont une la chute de tension la plus faible ( en l'occurence 0.7V pour la SR560).
+
 On va ensuite lisser la tension à l'aide de 2 condensateurs en parallèle (2 * 470 uF = 1000 uF) pour obtenir une tension continue.
+
 Ensuite, on fait passer ça dans un convertisseur abaisseur de tension (buck) qui va ramener la tension à 5,1V. Le LM2596 se règle à l'aide d'une visse micrométrique qui permet de choisir la tension de sortie.
+
 Il est préférable de charger une batterie type powerbank plutôt que par exemple un téléphone portable car ceux-ci n'apprécient pas trop des intensités variables de chargement ( proportionnelle à la vitesse du vélo)
 
 ## BOM (Bills of Material)
