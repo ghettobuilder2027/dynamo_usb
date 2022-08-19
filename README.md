@@ -6,3 +6,6 @@
 * Prise USB femelle
 * 2 Condensateurs 470 uF 35V
 * Perfoard
+
+## Réalisation
+![images/dynamo_usb.jpg](images/dynamos_usb.jpg)
