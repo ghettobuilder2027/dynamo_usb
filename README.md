@@ -24,7 +24,11 @@ Il est préférable de charger une batterie type powerbank plutôt que par exemp
 ## Rendement
 
 La dynamo utilisée est une dynamo moyeu notée à 3W .
+
 L'ampérage en sortie est mesurée à 0,42A environ pour une tension de 5,1V. Ce qui donne 2.1W donc un rendement d'environ 70%.
 La tension à vide en sortie de redressage peut monter à plus de 30V.
 Ce qui est étonnant, c'est que l'ampérage maximum est obtenu à une vitesse d'environ 20km/h et ne varie plus ensuite.
 Je ne connais pas le fonctionnement interne de la dynamo.
+
+Le connecteur USB femelle contient 4 PIN, les 2 du milieux sont connectés entre eux, ce qui permet en théorie de dépasser les 0.43A maximum que peuvent délivrer des générateurs ou plutôt recevoir des périphériques USB (mais pas à priori sur des powerbank). Il faudrait peut-être essayer de décharger l'énergie dans une résistance de puissance de 5 Ohms pour voir si on peut atteindre une puissance plus forte à grande vitessse (idée peut-être un peu foireuse).
+Bref, mystère :)
